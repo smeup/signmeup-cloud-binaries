@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>signmeup-cloud-server</id>
+    <version>1.2.1</version>
+    <title>SignMeUp Cloud Server</title>
+    <authors>Smeup</authors>
+    <owners>Smeup</owners>
+    <summary>Installazione automatizzata di SignMeUp Cloud Server.</summary>
+    <description>Server per l'ecosistema SignMeUp Cloud per la gestione di firme digitali e documenti.</description>
+    <tags>signmeup cloud server smeup</tags>
+    
+    <projectUrl>https://github.com/smeup/signmeup-cloud-binaries</projectUrl>
+    <projectSourceUrl>https://github.com/smeup/signmeup-cloud-binaries</projectSourceUrl>
+    <packageSourceUrl>https://github.com/smeup/signmeup-cloud-binaries/tree/main/choco-pkg</packageSourceUrl>
+    <docsUrl>https://github.com/smeup/signmeup-cloud-binaries/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/smeup/signmeup-cloud-binaries/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/smeup/signmeup-cloud-binaries/blob/main/CHANGELOG.md</releaseNotes>
+    <iconUrl>https://raw.githubusercontent.com/smeup/signmeup-cloud-binaries/main/logo.png</iconUrl>
+    <licenseUrl>https://github.com/smeup/signmeup-cloud-binaries/blob/main/LICENSE</licenseUrl>
+    </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
