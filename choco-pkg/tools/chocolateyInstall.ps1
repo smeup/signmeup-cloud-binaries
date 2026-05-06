@@ -22,8 +22,8 @@ if (Get-Service -Name $serviceName -ErrorAction SilentlyContinue) {
 }
 
 $packageName = 'signmeup-cloud-server'
-$url = "https://github.com/smeup/signmeup-cloud-binaries/releases/download/v1.2.2/SignMeUp.Cloud.Server_v1.2.2.zip"
-$checksum = 'E31984DDEF84B87E08B38340A1011A2BFD4634ACE7F7EC4DE0A47AB0823CBBEB'
+$url = "https://github.com/smeup/signmeup-cloud-binaries/releases/download/v1.2.3/SignMeUp.Cloud.Server_v1.2.3.zip"
+$checksum = '326401CC22AD9401F725F27AC34E20873BBF7094E20ACD081439C486955032C0'
 
 Install-ChocolateyZipPackage -PackageName $packageName `
   -Url $url `
